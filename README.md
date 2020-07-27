@@ -63,7 +63,9 @@ The API supports the following endpoints:
 | get a list of the messages send using the API | GET localurl/messages |   |
 the endpoints can also be located in routes/web.php
 
-launching the application is simle when all lumen requirements are installed: php -S localhost:8000 -t public
+I used homestead as the development environment but its also easy to launch the app on the local system using:
+php -S localhost:8000 -t public 
+
 
 The data is stored in a sqlite database located in the directory database/chat-database.sqlite
 This sqlite database already contains two users and two messages they sent to each other
